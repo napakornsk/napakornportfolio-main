@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    width: 100%;
+    height: 100%;
+}
+/* Menu field*/
+nav{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: #121227;
+}
+nav #logo{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 15px;
+    background-color: #000;
+    word-wrap: break-word;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: list-item;
+    overflow-wrap: break-word;
+    padding: 20px;
+}
+nav a:hover{
+    background-color: rgb(48, 97, 187);
+    transition: 0.5s;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+nav p:nth-child(4){
+    text-decoration: underline;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+}
+/* End Menu field*/
+
+.body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-rows: auto;
+}
+.body h1{
+    color: #fff;
+    padding: 20px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+.body h1 p{
+    font-weight: lighter;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px;
+    background-color: black;
+}
+#profilePic{
+    width: 250px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+article{
+    display: block;
+    font-size: 18px;
+}
+article h2{
+    font-size: 2em;
+}
+section{
+    margin-bottom: 20px;
+}
+article h2{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 0 10px 30px;
+    background-color: #121227;
+}
+hr{
+    display: block;
+}
+th{
+    text-align: left;
+}
+.Education{
+    font-size: 18px;
+    padding: 20px 0 20px 0px;
+}
+.Education section{
+    padding-left: 30px;
+}
+.HeaderCertificate{
+    padding: 10px 10px 10px 20px;
+}
+.HeaderJob{
+    padding: 10px 10px 10px 20px;
+}
+.EducationHistory{
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px;
+}
+.AboutMe{
+    padding: 10px 20px 10px 0;
+    
+}
+/* Responsive design */
+.CertificateImg{
+    width: 60%;
+    height: auto;
+}
+.CertificateImg img{
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: auto;
+}
+.JobImg{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 970px){
+    .SkillList {
+        margin-top: 70px;
+    }
+}
+/* End Responsive design */
+.JobImg img{
+    width: 415px;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+}
+.SkillList{
+    font-size: 1em;
+    padding-left: 30px;
+}
+
+.SkillList p{
+    text-decoration: underline;
+}
+.JobPropertiesList{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.BGImg{
+    background-image: url("https://cdn.discordapp.com/attachments/644203072255688705/972174893728800840/unityBanner.jpg");
+    background-size: cover;
+    opacity: 1;
+    background-repeat: no-repeat;
+}
+
+/* Credit zone */
+.CreditZone{
+    display: block;
+    padding: 20px 0px 20px 0px;
+}
+.CreditZone > h2{
+    width: 100%;
+    margin-left: 0px;
+}
+.CreditZone > ol{
+    padding-left: 20px;
+}
+/* End Credit zone */
