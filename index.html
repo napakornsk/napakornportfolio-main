@@ -18,7 +18,7 @@
             <nav>
                 <h2 id = "logo">PORTFOLIO</h2>
                 <a href="#welcome">Welcome</a>
-                <a href="#cv">Curriculum Vitae (CV)</a>
+                <!--<a href="#cv">Curriculum Vitae (CV)</a>-->
                 <a href="mailto: napakorn.sk@gmail.com" style="text-decoration: underline;">napakorn.sk@gmail.com</a>
                 <a target="_blank" href="https://www.linkedin.com/in/napakorn-sukkasem-0a2aba232">
                     <img src="https://img.icons8.com/officel/80/000000/linkedin.png" width="64px" height="64px"/>
@@ -62,6 +62,102 @@
                 <h2>My personal projects</h2>
                 <!--Represent as grid divided into 2 columns-->
                 <!--Responsive design-->
+                <section class="Disaster">
+                    <div class="HeaderContainner">
+                        <h3>Disaster</h3>
+                    </div>
+                    <hr>
+                    <div class="ProjectHolder">
+                    <!--1st column-->
+                        <div class="ProjectFirstColumn">
+                            <p>Game play</p>
+                            <br>  
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Eo3gx8gL_vI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <br><br>
+                            <p>UI & more</p>
+                            <br>
+                            <div class="imgCodeHolder"> 
+                                <img src="images/disaster_ui_1.PNG" alt="disaster_ui_1">
+                                <img src="images/disaster_ui_2.PNG" alt="disaster_ui_2">
+                            </div>
+                            <br><br>
+                            <!--
+                            <h4 id="downloadText">Download below: </h4> 
+                            <a target="_blank" href="https://drive.google.com/drive/folders/1iUG1HuY329yapoF9rd_EjCe5aoZBSJSm?usp=sharing" title="google drive download link">
+                                <img src="images/google-drive.png" alt="google drive icon" width="96px" height="96px">
+                            </a>
+                            -->
+                        </div>
+                    <!--End 1st column-->
+                    
+                    <!--2nd column-->
+                        <div class="ProjectSecondColumn">
+                            <h4>Architecture</h4>
+                            <div class="Architecture">
+
+                                <!--Images field-->
+                                <div class="UsingLogo">
+                                    <img src="https://img.icons8.com/color/48/000000/unity.png"/> 
+                                    <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"/>
+                                </div>
+                                <!--End Images field-->
+
+                                <!--Project Architecture-->
+                                <div>
+                                    <p>MonoBehavior</p>
+                                    <p>OS : Window</p>
+                                </div>
+                                <!--End Project Architecture-->
+
+                        </div>
+
+                            <!--Project details-->
+                            <h4>Description (Prototype)</h4>
+                            <p>You are the jelly who get into the flood situation and you have to move the necessary items to another floor upward and focusing to the survive there are</p>
+                            <ul class="PropertiesList">
+                                <li><img class="DotCorrect" src="https://img.icons8.com/fluency/48/000000/checkmark.png"/>
+                                    <p>Survive until the rescuer come help.</p> 
+                                </li>
+                                <li><img class="Dot" src="https://img.icons8.com/emoji/96/000000/green-circle-emoji.png"/>
+                                    <p>Press "E" to pick up an item, "Q" to drop the holded item and "C" to combine items together.</p> 
+                                </li>
+                                <li><img class="Dot" src="https://img.icons8.com/emoji/96/000000/green-circle-emoji.png"/>
+                                    <p>Water will increase rapidly for the pressure.</p> 
+                                </li>
+                                <li><img class="Dot" src="https://img.icons8.com/emoji/96/000000/green-circle-emoji.png"/>
+                                    <p>There is the helper UI on the top right conner of the screen and you can toggle it.</p> 
+                                </li>
+                                <li><img class="Dot" src="https://img.icons8.com/emoji/96/000000/green-circle-emoji.png"/>
+                                    <p>When you drown your health decrease super fast so you can not swim or stay in the water.</p> 
+                                </li>
+                            </ul>
+                            <!--End Project details-->
+
+                            <h4>Programming</h4>
+                            <ul class="PropertiesList">
+                                <li><img class="DotCorrect" src="https://img.icons8.com/fluency/48/000000/checkmark.png"/>
+                                    <p>
+                                        Implement game mechanics using Unity C# script
+                                    </p>
+                                </li>
+                                <li><img class="Dot" src="https://img.icons8.com/emoji/96/000000/green-circle-emoji.png"/>
+                                   <p>Using raycast to detect the grabable items using C# scripts.</p> 
+                                </li>
+                                <li><img class="Dot" src="https://img.icons8.com/emoji/96/000000/green-circle-emoji.png"/>
+                                   <p>Play sounds VFX when player act something such as pick up an item.</p> 
+                                </li>
+                                <li><img class="Dot" src="https://img.icons8.com/emoji/96/000000/green-circle-emoji.png"/>
+                                    <p>Control the water increase rate using C# script.</p> 
+                                </li>
+                                <li><img class="Dot" src="https://img.icons8.com/emoji/96/000000/green-circle-emoji.png"/>
+                                    <p>Combination system using the idea of tags and collider.</p> 
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <!--End 2nd column-->  
+                </section>
                 <section class="Stargate">
                     <div class="HeaderContainner">
                         <h3>Stargate</h3>
@@ -277,6 +373,7 @@
                     <!--End 2nd column-->  
                 </section>
             </article>
+            <!--
             <article class="CV">
                 <article class="Education">
                     <h2 id="cv">Curriculum Vitae (CV)</h2>
@@ -414,7 +511,7 @@
                             </ul>
                         </li>
                         <br>
-                        -->
+                        
                         <p id="head">Source control</p>
                         <li>Github
                             <ul>
@@ -454,34 +551,38 @@
                         
                     </section>
                 </article>
-    
+            -->
                 <article class="JobExperience">
                     <h2>Job Experience</h2>
                     
                     <section class="JobExperienceSection">
                         <div class="JobHolder">
                             <div class="HeaderJob">
-                                <h3>Idea connect lcd. : Warehouse assistant</h3>
+                                <h3>Beyond Code Academy: Coding Instructor (Part time)</h3>
                             </div>
                             <hr>
                             
                             <ul class="JobPropertiesList">
-                                <li>• Responsible for receiving and sending goods.
+                                <li>• Teaching programming stuff including Unity (C#), Roblox studio (Lua), Full-Stack web development using Flask framework (HTML/CSS/JavaScript and Python), and Python for beginners.
                                 </li>
-                                <li>• Help manage the report of products and stock trough a warehouse.
+                                <li>• Keep communicating with students' parents via writing students' feedback.
+                                </li>
+                                <li>
+                                    • Inspire all students in responsibility and keep them interested to develop in any skills that relate to programming.
+                                </li>
+                                <li>
+                                    • Always seek new techniques or methods for teaching and communicating with students.
                                 </li>
                             </ul>
                             <hr>
                             <!--Images field-->
                             <!--Represent job's images as flex for responsive design-->
                             <div class="JobImg">
-                                <img src="images/warehouse1.jpg" width="872" height="675"/> 
-                                <img src="images/warehouse2.jpg" width="872" height="675"/> 
-                                <img src="images/warehouse3.jpg" width="872" height="675"/> 
-                                <img src="images/warehouse4.png" width="872" height="675"/> 
-                                <img src="images/benzwork.png" width="872" height="675"/>
-                                <img src="images/benzwork2.png" width="872" height="675"/>
+                                <img src="images/benz-beyond-1.jpg" width="872" height="675"/> 
+                                <img src="images/benz-beyond-2.jpg" width="872" height="675"/> 
+                                <img src="images/benz-beyond-3.jpg" width="872" height="675"/> 
                             </div>
+                        
                             <!--End Images field-->
                             <div class="JobHolder">
                                 <div class="HeaderJob">
@@ -507,7 +608,29 @@
                                     <img src="images/Trainee4.PNG" width="872" height="675"/>
                                 </div>
                                 <!--End Images field-->
-                   
+                                <div class="JobHolder">
+                                    <div class="HeaderJob">
+                                        <h3>Idea connect lcd. : Warehouse assistant</h3>
+                                    </div>
+                                    <hr>
+                                    
+                                    <ul class="JobPropertiesList">
+                                        <li>• Responsible for receiving and sending goods.
+                                        </li>
+                                        <li>• Help manage the report of products and stock trough a warehouse.
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <!--Images field-->
+                                    <!--Represent job's images as flex for responsive design-->
+                                    <div class="JobImg">
+                                        <img src="images/warehouse1.jpg" width="872" height="675"/> 
+                                        <img src="images/warehouse2.jpg" width="872" height="675"/> 
+                                        <img src="images/warehouse3.jpg" width="872" height="675"/> 
+                                        <img src="images/warehouse4.png" width="872" height="675"/> 
+                                        <img src="images/benzwork.png" width="872" height="675"/>
+                                        <img src="images/benzwork2.png" width="872" height="675"/>
+                                    </div>
                         </div>
                     </section>
                 </article>
@@ -520,36 +643,36 @@
                         <div class="CertificateHolder">
                             <div class="HeaderCertificate">
                                 <h3>Depa3r : Unity Certified User: Programmer Certified User</h3>
-                            </div>
-                            <hr>
+                                <!--Images field-->
+                                <div class="CertificateImg">
+                                    <img src="images/certUnity.png" width="872" height="675"/> 
+                                </div>
+                                <!--End Images field-->
             
-                            <!--Images field-->
-                            <div class="CertificateImg">
-                                <img src="images/certUnity.png" width="872" height="675"/> 
                             </div>
-                            <!--End Images field-->
             
+                            
                             <div class="HeaderCertificate">
                                 <h3>Coursera : Game Development for Modern Platforms</h3>
+                                 <!--Images field-->
+                                <div class="CertificateImg">
+                                    <img src="images/certUnity2.png" width="872" height="675"/> 
+                                </div>
+                                <!--End Images field-->
                             </div>
-                            <hr>
     
-                            <!--Images field-->
-                            <div class="CertificateImg">
-                                <img src="images/certUnity2.png" width="872" height="675"/> 
-                            </div>
-                            <!--End Images field-->
+                           
                                 
                             <div class="HeaderCertificate">
                                 <h3>Coursera : Python Data Structures </h3>
+                                <!--Images field-->
+                                <div class="CertificateImg">
+                                    <img src="images/certPython.png" width="872" height="675"/> 
+                                </div>
+                                <!--End Images field-->
                             </div>
-                            <hr>
                 
-                            <!--Images field-->
-                            <div class="CertificateImg">
-                                <img src="images/certPython.png" width="872" height="675"/> 
-                            </div>
-                            <!--End Images field-->
+                            
      
                         </div>
                     </section>

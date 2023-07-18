@@ -154,6 +154,11 @@ ul li{
 .HeaderContainner{
     display: block;
 }
+.Disaster h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
 .DownloadLogo{
     width: 128px;
     height: 128px;
@@ -183,7 +188,7 @@ ul li{
 }
 .imgCodeHolder > img{
     width: 100%;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
 }
 .SectionShowcase p{
     padding-top: 15px;
@@ -286,3 +291,8 @@ ul li{
     padding-left: 20px;
 }
 /* End Credit zone */
+
+.CertificateHolder {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
